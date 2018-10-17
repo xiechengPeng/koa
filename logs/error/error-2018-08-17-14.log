@@ -1,0 +1,86 @@
+[2018-08-17T14:31:46.852] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /update
+request client ip:  ::ffff:192.168.2.210
+request body: 
+{"name":"koa2"}
+response time: 20
+err name: Error
+err message: ER_DUP_ENTRY: Duplicate entry 'koa2' for key 'PRIMARY'
+err stack: Error: ER_DUP_ENTRY: Duplicate entry 'koa2' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\workspace\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\workspace\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\workspace\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\workspace\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\workspace\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\workspace\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\workspace\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+    --------------------
+    at Protocol._enqueue (D:\workspace\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\workspace\koa\node_modules\mysql\lib\Connection.js:200:25)
+    at Query.<anonymous> (D:\workspace\koa\utils\myspl_pool.js:46:36)
+    at Query.<anonymous> (D:\workspace\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Query._callback (D:\workspace\koa\node_modules\mysql\lib\Connection.js:468:16)
+    at Query.Sequence.end (D:\workspace\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\workspace\koa\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.OkPacket (D:\workspace\koa\node_modules\mysql\lib\protocol\sequences\Query.js:72:10)
+    at Protocol._parsePacket (D:\workspace\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\workspace\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\workspace\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\workspace\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\workspace\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+*************** error log end ***************
+
+[2018-08-17T14:34:23.311] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /update
+request client ip:  ::ffff:192.168.2.210
+request body: 
+{"name":"koa3"}
+response time: 22
+err name: Error
+err message: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'koa3'
+err stack: Error: ER_TRUNCATED_WRONG_VALUE: Truncated incorrect DOUBLE value: 'koa3'
+    at Query.Sequence._packetToError (D:\workspace\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\workspace\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\workspace\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\workspace\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\workspace\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\workspace\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\workspace\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at Socket.Readable.push (_stream_readable.js:208:10)
+    at TCP.onread (net.js:607:20)
+    --------------------
+    at Protocol._enqueue (D:\workspace\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\workspace\koa\node_modules\mysql\lib\Connection.js:200:25)
+    at Query.<anonymous> (D:\workspace\koa\utils\myspl_pool.js:46:36)
+    at Query.<anonymous> (D:\workspace\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Query._callback (D:\workspace\koa\node_modules\mysql\lib\Connection.js:468:16)
+    at Query.Sequence.end (D:\workspace\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\workspace\koa\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.OkPacket (D:\workspace\koa\node_modules\mysql\lib\protocol\sequences\Query.js:72:10)
+    at Protocol._parsePacket (D:\workspace\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\workspace\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\workspace\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\workspace\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\workspace\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+*************** error log end ***************
+

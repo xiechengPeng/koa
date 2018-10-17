@@ -1,0 +1,336 @@
+[2018-08-30T21:44:52.933] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /add
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa2"}
+response time: 5
+err name: Error
+err message: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+err stack: Error: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:635:20)
+    --------------------
+    at Protocol._enqueue (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\koa\koa\node_modules\mysql\lib\Connection.js:200:25)
+    at Query.<anonymous> (D:\koa\koa\utils\myspl_pool.js:46:36)
+    at Query.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Query._callback (D:\koa\koa\node_modules\mysql\lib\Connection.js:468:16)
+    at Query.Sequence.end (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.OkPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:72:10)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+*************** error log end ***************
+
+[2018-08-30T21:46:54.024] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /add
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa2"}
+response time: 3
+err name: Error
+err message: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+err stack: Error: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:635:20)
+    --------------------
+    at Protocol._enqueue (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\koa\koa\node_modules\mysql\lib\Connection.js:200:25)
+    at Query.<anonymous> (D:\koa\koa\utils\myspl_pool.js:46:36)
+    at Query.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Query._callback (D:\koa\koa\node_modules\mysql\lib\Connection.js:468:16)
+    at Query.Sequence.end (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.OkPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:72:10)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+*************** error log end ***************
+
+[2018-08-30T21:47:07.507] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /add
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa2","id":"2"}
+response time: 3
+err name: Error
+err message: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+err stack: Error: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:635:20)
+    --------------------
+    at Protocol._enqueue (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\koa\koa\node_modules\mysql\lib\Connection.js:200:25)
+    at Query.<anonymous> (D:\koa\koa\utils\myspl_pool.js:46:36)
+    at Query.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Query._callback (D:\koa\koa\node_modules\mysql\lib\Connection.js:468:16)
+    at Query.Sequence.end (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.OkPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:72:10)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+*************** error log end ***************
+
+[2018-08-30T21:49:27.474] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /add
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa2"}
+response time: 4
+err name: Error
+err message: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+err stack: Error: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:635:20)
+    --------------------
+    at Protocol._enqueue (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\koa\koa\node_modules\mysql\lib\Connection.js:200:25)
+    at Query.<anonymous> (D:\koa\koa\utils\myspl_pool.js:46:36)
+    at Query.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Query._callback (D:\koa\koa\node_modules\mysql\lib\Connection.js:468:16)
+    at Query.Sequence.end (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.OkPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:72:10)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+*************** error log end ***************
+
+[2018-08-30T21:50:17.175] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /add
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa2"}
+response time: 51
+err name: Error
+err message: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+err stack: Error: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:635:20)
+    --------------------
+    at Protocol._enqueue (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\koa\koa\node_modules\mysql\lib\Connection.js:200:25)
+    at Query.<anonymous> (D:\koa\koa\utils\myspl_pool.js:46:36)
+    at Query.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Query._callback (D:\koa\koa\node_modules\mysql\lib\Connection.js:468:16)
+    at Query.Sequence.end (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.OkPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:72:10)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+*************** error log end ***************
+
+[2018-08-30T21:50:54.835] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /add
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa2"}
+response time: 3
+err name: Error
+err message: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+err stack: Error: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:635:20)
+    --------------------
+    at Protocol._enqueue (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\koa\koa\node_modules\mysql\lib\Connection.js:200:25)
+    at Query.<anonymous> (D:\koa\koa\utils\myspl_pool.js:46:36)
+    at Query.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Query._callback (D:\koa\koa\node_modules\mysql\lib\Connection.js:468:16)
+    at Query.Sequence.end (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.OkPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:72:10)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+*************** error log end ***************
+
+[2018-08-30T21:51:56.924] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /add
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa2"}
+response time: 54
+err name: Error
+err message: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+err stack: Error: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:635:20)
+    --------------------
+    at Protocol._enqueue (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\koa\koa\node_modules\mysql\lib\Connection.js:200:25)
+    at Query.<anonymous> (D:\koa\koa\utils\myspl_pool.js:46:36)
+    at Query.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Query._callback (D:\koa\koa\node_modules\mysql\lib\Connection.js:468:16)
+    at Query.Sequence.end (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.OkPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:72:10)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+*************** error log end ***************
+
+[2018-08-30T21:55:12.250] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /add
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa2"}
+response time: 5
+err name: Error
+err message: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+err stack: Error: ER_DUP_ENTRY: Duplicate entry '0' for key 'PRIMARY'
+    at Query.Sequence._packetToError (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:635:20)
+    --------------------
+    at Protocol._enqueue (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at PoolConnection.query (D:\koa\koa\node_modules\mysql\lib\Connection.js:200:25)
+    at Query.<anonymous> (D:\koa\koa\utils\myspl_pool.js:46:36)
+    at Query.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Query._callback (D:\koa\koa\node_modules\mysql\lib\Connection.js:468:16)
+    at Query.Sequence.end (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.OkPacket (D:\koa\koa\node_modules\mysql\lib\protocol\sequences\Query.js:72:10)
+    at Protocol._parsePacket (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:278:23)
+    at Parser.write (D:\koa\koa\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\koa\koa\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:91:28)
+    at Socket.<anonymous> (D:\koa\koa\node_modules\mysql\lib\Connection.js:502:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:283:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+*************** error log end ***************
+

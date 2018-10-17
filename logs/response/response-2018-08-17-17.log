@@ -1,0 +1,48 @@
+[2018-08-17T17:02:00.632] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /myget
+request client ip:  ::ffff:192.168.2.210
+request query:  {}
+response time: 108
+response status: 200
+response body: 
+{"name":"koa3","Id":1}
+*************** response log end ***************
+
+[2018-08-17T17:02:16.477] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /myget
+request client ip:  ::ffff:192.168.2.210
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"name":"koa3","Id":1}
+*************** response log end ***************
+
+[2018-08-17T17:05:47.729] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /myget
+request client ip:  ::ffff:192.168.2.210
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"name":"koa3","Id":1}
+*************** response log end ***************
+
+[2018-08-17T17:10:11.176] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /myget
+request client ip:  ::ffff:192.168.2.210
+request query:  {}
+response time: 81
+response status: 200
+response body: 
+[{"name":"koa3","Id":1},{"name":"assf","Id":3},{"name":"323","Id":4}]
+*************** response log end ***************
+

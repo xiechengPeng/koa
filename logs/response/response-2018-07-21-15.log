@@ -1,0 +1,324 @@
+[2018-07-21T15:01:09.326] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 13
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+*************** response log end ***************
+
+[2018-07-21T15:03:00.962] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /string
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"aa":"koa2 string"}
+*************** response log end ***************
+
+[2018-07-21T15:15:58.290] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /po
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-21T15:16:00.585] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /po
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 1
+response status: 200
+response body: 
+{"ss":{}}
+*************** response log end ***************
+
+[2018-07-21T15:16:29.700] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /po
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 1
+response status: 200
+response body: 
+{"ss":{}}
+*************** response log end ***************
+
+[2018-07-21T15:16:48.447] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /po
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 0
+response status: 200
+response body: 
+{"ss":{}}
+*************** response log end ***************
+
+[2018-07-21T15:17:01.442] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /po
+request client ip:  ::1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-21T15:17:09.406] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /po?name=162
+request client ip:  ::1
+request query:  {"name":"162"}
+response time: 2
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-21T15:18:05.595] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /string
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 0
+response status: 200
+response body: 
+{"aa":"koa2 string"}
+*************** response log end ***************
+
+[2018-07-21T15:24:47.062] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /po
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 1
+response status: 200
+response body: 
+{"ss":{}}
+*************** response log end ***************
+
+[2018-07-21T15:25:57.594] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /po
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 3
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-07-21T15:27:06.889] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /po
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 0
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-07-21T15:28:16.384] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /robots.txt
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-21T15:28:18.391] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /ejs
+request client ip:  ::1
+request query:  {}
+response time: 2124
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>Hello Koa2</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa2</h1><p>Welcome to Hello Koa2</p></body></html>"
+*************** response log end ***************
+
+[2018-07-21T15:28:18.404] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /stylesheets/style.css
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\workspace\\koa\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"start":0,"end":null,"autoClose":true,"pos":0,"bytesRead":0}
+*************** response log end ***************
+
+[2018-07-21T15:33:57.674] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /stylesheets/style.css
+request client ip:  ::1
+request query:  {}
+response time: 10
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\workspace\\koa\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"start":0,"end":null,"autoClose":true,"pos":0,"bytesRead":0}
+*************** response log end ***************
+
+[2018-07-21T15:34:01.205] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /po?name=safsaf
+request client ip:  ::1
+request query:  {"name":"safsaf"}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-21T15:34:21.112] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /po?name=safsaf
+request client ip:  ::ffff:127.0.0.1
+request query:  {"name":"safsaf"}
+response time: 2
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-21T15:34:21.121] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /robots.txt
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 2
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-21T15:34:21.542] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-21T15:35:01.119] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /po
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 393
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-07-21T15:37:39.137] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /po
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 3
+response status: 200
+response body: 
+{"data":{}}
+*************** response log end ***************
+
+[2018-07-21T15:39:55.887] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /po
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 2
+response status: 200
+response body: 
+{"data":{}}
+*************** response log end ***************
+
+[2018-07-21T15:39:59.917] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /po
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 1
+response status: 200
+response body: 
+{"data":{}}
+*************** response log end ***************
+
+[2018-07-21T15:43:44.731] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /c
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 2
+response status: 200
+response body: 
+{"data":{}}
+*************** response log end ***************
+
+[2018-07-21T15:44:15.208] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /c
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 0
+response status: 200
+response body: 
+{"data":{}}
+*************** response log end ***************
+

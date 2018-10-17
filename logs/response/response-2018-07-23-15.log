@@ -1,0 +1,99 @@
+[2018-07-23T15:55:34.440] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /robots.txt
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-23T15:55:37.044] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 2625
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+*************** response log end ***************
+
+[2018-07-23T15:55:37.065] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /stylesheets/style.css
+request client ip:  ::1
+request query:  {}
+response time: 2
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\workspace\\koa\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"start":0,"end":null,"autoClose":true,"pos":0,"bytesRead":0}
+*************** response log end ***************
+
+[2018-07-23T15:56:06.825] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 1
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-07-23T15:56:43.534] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response time: 425
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+*************** response log end ***************
+
+[2018-07-23T15:56:43.553] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /stylesheets/style.css
+request client ip:  ::1
+request query:  {}
+response time: 3
+response status: 200
+response body: 
+{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"domain":null,"_events":{},"_eventsCount":2,"path":"D:\\workspace\\koa\\public\\stylesheets\\style.css","fd":null,"flags":"r","mode":438,"start":0,"end":null,"autoClose":true,"pos":0,"bytesRead":0}
+*************** response log end ***************
+
+[2018-07-23T15:56:47.026] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response time: 1
+response status: 200
+response body: 
+{"data":{}}
+*************** response log end ***************
+
+[2018-07-23T15:58:42.703] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"nage":"xiecheng","age":"22"}
+response time: 18
+response status: 200
+response body: 
+{"data":{"nage":"xiecheng","age":"22"}}
+*************** response log end ***************
+

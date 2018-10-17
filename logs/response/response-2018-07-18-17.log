@@ -1,0 +1,13 @@
+[2018-07-18T17:33:47.129] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /po
+request client ip:  ::1
+request body: 
+{"name":"asdsa"}
+response time: 2
+response status: 200
+response body: 
+{"ss":{"name":"asdsa"}}
+*************** response log end ***************
+

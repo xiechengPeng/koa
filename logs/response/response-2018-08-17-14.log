@@ -1,0 +1,130 @@
+[2018-08-17T14:07:46.218] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /signin
+request client ip:  ::ffff:192.168.2.210
+request body: 
+{"name":"koa","password":"12345"}
+response time: 3
+response status: 200
+response body: 
+{"code":"00","data":{"name":"koa","password":"12345"},"message":"success"}
+*************** response log end ***************
+
+[2018-08-17T14:26:19.748] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /signin
+request client ip:  ::ffff:192.168.2.210
+request body: 
+{"name":"koa","password":"12345"}
+response time: 3
+response status: 200
+response body: 
+{"code":"00","data":{"name":"koa","password":"12345"},"message":"success"}
+*************** response log end ***************
+
+[2018-08-17T14:26:34.393] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.210
+request body: 
+{"name":"koa","password":"12345"}
+response time: 14
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-08-17T14:26:54.094] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.210
+request body: 
+{"name":"koa","password":"12345"}
+response time: 2
+response status: 200
+response body: 
+{"name":"koa"}
+*************** response log end ***************
+
+[2018-08-17T14:29:01.113] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.210
+request body: 
+{"name":"koa1"}
+response time: 2
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-08-17T14:29:16.427] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /add
+request client ip:  ::ffff:192.168.2.210
+request body: 
+{"name":"koa1"}
+response time: 21
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2018-08-17T14:30:13.738] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.210
+request body: 
+{"name":"koa1"}
+response time: 3
+response status: 200
+response body: 
+{"name":"koa1"}
+*************** response log end ***************
+
+[2018-08-17T14:33:34.272] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /update
+request client ip:  ::ffff:192.168.2.210
+request body: 
+{"name":"koa2"}
+response time: 3
+response status: 200
+response body: 
+""
+*************** response log end ***************
+
+[2018-08-17T14:35:28.901] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /update
+request client ip:  ::ffff:192.168.2.210
+request body: 
+{"name":"koa3"}
+response time: 23
+response status: 200
+response body: 
+""
+*************** response log end ***************
+
+[2018-08-17T14:37:09.233] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /del
+request client ip:  ::ffff:192.168.2.210
+request body: 
+{"name":"koa2"}
+response time: 31
+response status: 200
+response body: 
+""
+*************** response log end ***************
+

@@ -1,0 +1,26 @@
+[2018-08-17T16:40:22.653] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /add
+request client ip:  ::1
+request body: 
+{"name":"assf"}
+response time: 23
+response status: 200
+response body: 
+""
+*************** response log end ***************
+
+[2018-08-17T16:42:16.952] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /add
+request client ip:  ::1
+request body: 
+{"name":"323"}
+response time: 30
+response status: 200
+response body: 
+{"code":"00","data":{"name":"323"},"message":"success"}
+*************** response log end ***************
+

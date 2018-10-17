@@ -1,0 +1,12 @@
+[2018-08-17T18:06:20.691] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /myget
+request client ip:  ::ffff:192.168.2.210
+request query:  {}
+response time: 64
+response status: 200
+response body: 
+[{"name":"koa3","Id":1},{"name":"assf","Id":3},{"name":"323","Id":4}]
+*************** response log end ***************
+

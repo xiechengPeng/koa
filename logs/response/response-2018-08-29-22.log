@@ -1,0 +1,128 @@
+[2018-08-29T22:05:29.846] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /add
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{}
+response time: 60
+response status: 200
+response body: 
+{"code":"00","data":{},"message":"success"}
+*************** response log end ***************
+
+[2018-08-29T22:10:42.531] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /json
+request client ip:  ::ffff:192.168.2.228
+request query:  {}
+response time: 9
+response status: 200
+response body: 
+{"title":"koa2 json"}
+*************** response log end ***************
+
+[2018-08-29T22:13:29.234] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /myget
+request client ip:  ::ffff:192.168.2.228
+request query:  {}
+response time: 8
+response status: 200
+response body: 
+[{"name":"koa1","id":0}]
+*************** response log end ***************
+
+[2018-08-29T22:34:48.158] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{}
+response time: 55
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-08-29T22:35:28.797] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{}
+response time: 5
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-08-29T22:35:36.129] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{}
+response time: 3
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-08-29T22:36:44.658] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{}
+response time: 3
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-08-29T22:42:34.910] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{}
+response time: 56
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-08-29T22:43:40.961] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{}
+response time: 72
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-08-29T22:46:11.042] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{}
+response time: 60
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+

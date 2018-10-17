@@ -1,0 +1,91 @@
+[2018-08-30T21:44:29.771] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{}
+response time: 6
+response status: 200
+response body: 
+{}
+*************** response log end ***************
+
+[2018-08-30T21:44:40.030] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa1"}
+response time: 7
+response status: 200
+response body: 
+{"name":"koa1","id":0}
+*************** response log end ***************
+
+[2018-08-30T21:49:37.715] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /ccc
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa1"}
+response time: 4
+response status: 200
+response body: 
+{"name":"koa1","id":0}
+*************** response log end ***************
+
+[2018-08-30T21:54:11.534] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /signin
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa","password":"12345"}
+response time: 2
+response status: 200
+response body: 
+{"code":"00","data":{"name":"koa","password":"12345"},"message":"success"}
+*************** response log end ***************
+
+[2018-08-30T21:56:54.368] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /update
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa2","Id":"0"}
+response time: 4
+response status: 200
+response body: 
+""
+*************** response log end ***************
+
+[2018-08-30T21:57:05.761] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /update
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa2"}
+response time: 3
+response status: 200
+response body: 
+""
+*************** response log end ***************
+
+[2018-08-30T21:58:11.552] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /add
+request client ip:  ::ffff:192.168.2.228
+request body: 
+{"name":"koa2"}
+response time: 4
+response status: 200
+response body: 
+{"code":"00","data":{"name":"koa2"},"message":"success"}
+*************** response log end ***************
+

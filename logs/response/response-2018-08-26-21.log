@@ -1,0 +1,12 @@
+[2018-08-26T21:22:49.192] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /list?name=sad
+request client ip:  ::1
+request query:  {"name":"sad"}
+response time: 23
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
