@@ -1,7 +1,8 @@
 const router = require('koa-router')();
+router.prefix('/mall/api')
 
 var goodsList=require('../controllers/goods');
-router.post('mallgoods',goodsList.create);
+router.post('/mallgoods',goodsList.create);
 
 
 router.get('/', async (ctx, next) => {

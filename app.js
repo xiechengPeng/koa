@@ -10,7 +10,7 @@ const logUtil = require('./utils/log_util');
 
 const index = require('./routes/index')
 const users = require('./routes/users')
-
+const response_formatter =require('./utils/response_formatter')
 // error handler
 onerror(app)
 
@@ -21,6 +21,7 @@ app.use(bodyparser({
 app.use(cors())//跨域
 app.use(json())
 app.use(logger())
+app.use(response_formatter('^/mall'))
 app.use(async (ctx, next) => {
     //响应开始时间
     const start = new Date();
